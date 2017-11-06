@@ -1,0 +1,12 @@
+html {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+/* nav */
+
+.navbar-default .navbar-nav .active a{
+  color: #399bd1;
+  background-color: inherit;
+}
