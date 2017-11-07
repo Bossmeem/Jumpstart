@@ -49,3 +49,74 @@ html {
   padding-bottom: 1.3rem;
   margin-bottom: 11.85rem;
 }
+
+/* featured project section */
+
+.Featured h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  margin-bottom: 20px;
+}
+
+.Featured img {
+  width: 100%;
+}
+
+.Featured .list h5 {
+  color: #399bd1;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.Featured .person h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.list ul li {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* projects section */
+
+.Projects {
+  margin-bottom: 5.85rem;
+}
+
+.Projects h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+.Projects img {
+  width: 100%;
+  opacity: .7;
+}
+
+/* Having trouble section */
+
+.help {
+  background-color: #f3f3f3;
+  text-align: -webkit-center;
+}
+
+.help strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+
+.help p {
+  width: 42rem;
+}
+
+.help .btn-primary {
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+  width: 11.4rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
