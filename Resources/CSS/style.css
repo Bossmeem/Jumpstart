@@ -10,3 +10,42 @@ html {
   color: #399bd1;
   background-color: inherit;
 }
+
+.navbar-nav li a {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/*jumbotron */
+
+.jumbotron {
+  background-image: url("../images/jumbotron-bike.jpg");
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron .content {
+  padding-top: 11.88rem;
+  text-align: -webkit-center;
+}
+
+.jumbotron h1 {
+  font-family: Monoton;
+  font-size: 7.1rem;
+
+}
+
+.jumbotron p {
+  width: 51.3rem;
+  margin-bottom: 2.8rem;
+}
+
+.jumbotron .btn-primary {
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+  width: 11.4rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  margin-bottom: 11.85rem;
+}
