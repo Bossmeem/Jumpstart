@@ -7,4 +7,19 @@ $(document).ready(function() {
     pauseOnHover: false,
     pauseOnFocus: false,
   });
+  var userScroll = 0;
+  $(window).scroll(function(){
+    var scrollTop = $(this).scrollTop();
+    if (userScroll - scrollTop >  50) {
+      var navHeight = $('.navbar').css('height');
+      $('.navbar').animate({top: '-' + navHeight}, 150);
+      userScroll = scrollTop;
+    }
+    else if (scrollTop - userScroll > 50) {
+      $('.navbar').animate({top: 0}, 150);
+      userScroll = scrollTop;
+    }
+  });
+
+
 });
